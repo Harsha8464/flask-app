@@ -1,0 +1,10 @@
+version: "3"
+
+services:
+  web:
+    image: my-python-app  # Replace with the image name you used when building
+    ports:
+      - "5000:5000"      # Map the container's port to the host
+
+  # Add other services and dependencies here if needed
+
